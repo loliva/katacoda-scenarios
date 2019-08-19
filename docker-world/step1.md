@@ -8,7 +8,18 @@
 
 `docker ps -a`{{execute}}
 
+`docker start ubuntu`{{execute}}
+
+`docker ps -a`{{execute}}
+
+`docker exec -it ubuntu bash `{{execute}}
+
+`exit`{{execute}}
+
+`docker ps -a`{{execute}}
+
+`docker stop ubuntu`{{execute}}
+
 `docker rm ubuntu`{{execute}}
 
-
-`echo 'Hello World'`{{execute}}
+`docker ps -a`{{execute}}
