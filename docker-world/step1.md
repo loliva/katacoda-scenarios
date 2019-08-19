@@ -18,6 +18,10 @@
 
 `docker ps -a`{{execute}}
 
+`docker attach ubuntu`{{execute}}
+
+`exit`{{execute}}
+
 `docker stop ubuntu`{{execute}}
 
 `docker rm ubuntu`{{execute}}
