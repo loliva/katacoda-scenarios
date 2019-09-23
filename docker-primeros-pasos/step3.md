@@ -2,13 +2,19 @@ Ya vemos que tenemos la imagen ahí. Ahora como podemos interactuar con esa imag
 
 Vamos a lanzar un contenedor basado en esa imagen e interactuar con la linea de comandos de ese contenedor
 
-`docker run -it --name centos centos:latest`{{execute}}
+`docker run -itd --name centos centos:latest`{{execute}}
 
 -i : Interactivo
 
 -t: tty
 
 --name: nombre
+
+-d: detach
+
+Una vez ejecutado, entraremos en el contenedor.
+
+`docker attach centos`{{execute}}
 
 Ahora ejecutamos este comando dentro del contenedores
 

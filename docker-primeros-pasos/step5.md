@@ -2,7 +2,7 @@ Aquí tenemos el ID de contenedor, la imagen que usamos para lanzarlo, el comand
 
 Si queremos detener el contenedor
 
-`docker stop centos7`{{execute}}
+`docker stop centos`{{execute}}
 
 
 Si corremos docker ps, veremos que ya no hay nada. Lo Bueno del caso es que ese contenedor permanece ahi, con los cambios que nosostros le realizamos.
@@ -11,7 +11,7 @@ Si corremos docker ps, veremos que ya no hay nada. Lo Bueno del caso es que ese 
 
 Podemos reiniciar nuevamente ese contenedor y conectarnos a el
 
-`docker start centos7`{{execute}}
+`docker start centos`{{execute}}
 
 
-`docker attach centos7`{{execute}}
+`docker attach centos`{{execute}}
