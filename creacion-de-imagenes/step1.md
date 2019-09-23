@@ -5,7 +5,7 @@ Creando imágenes desde un contenedor
 
 Esta puede ser la manera más sencilla de crear una imagen, ya que lanzamos un contenedor, descargamos paquetes por ejemplo y podemos crear una imágen a partir de ahí para utilizarla como base en futuros contenedores. Vamos a ver como lo podemos hacer.
 
-Lo primero es que debemos lanzar un contenedor con una imágen, en este caso tenemos un contenedor basado en Ubuntu, y queremos crear una imágen que tenga node ya instalado.
+Lo primero es que debemos lanzar un contenedor con una imágen, en este caso tenemos un contenedor basado en Ubuntu, y queremos crear una imágen que tenga nodeJS ya instalado.
 
 Descargamos la imagen necesaria:
 
