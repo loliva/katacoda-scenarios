@@ -12,9 +12,9 @@ Vamos a lanzar un contenedor basado en esa imagen e interactuar con la linea de 
 
 -d: detach
 
-Una vez ejecutado, entraremos en el contenedor.
+Una vez ejecutado, entraremos en el contenedor ejecutando una interprete de comandos.
 
-`docker attach centos`{{execute}}
+`docker exec -it centos bash`{{execute}}
 
 Ahora ejecutamos este comando dentro del contenedores
 
