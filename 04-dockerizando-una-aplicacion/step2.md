@@ -15,8 +15,8 @@ Hasta aqui nuestro servicio ya esta funcionando.
 
 >En el comando anterior ejecutamos el flag -p el cual expone el servicio hacia el exterior
 desde el contenedor. La forma de usar este flag (-p o --port) es
-Puerto dentro del contenedor:Puerto fuera del contenedor
+Puerto fuera del contenedor:Puerto dentro del contenedor
 Ejemplo:
 Un contenedor apache que use por defecto el puerto 80, puede exponerse al puerto 8080 en el cual podran
 acceder. Para esto deberiamos ejecutar el flag de la siguiente forma:
-                            -p 80:8080
+                            -p 8080:80
