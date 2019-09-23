@@ -26,14 +26,8 @@
       "text": "finish.md"
     }
   },
-  "files": [
-    "flask-dockerized"
-  ],
   "environment": {
     "uilayout": "editor-terminal"
-    "uisettings": "dockerfile",
-    "uimessage1": "\u001b[32mInteractive Bash\u001b[m\r\n",
-    "showdashboard": true
   },
   "backend": {
     "imageid": "ubuntu"
