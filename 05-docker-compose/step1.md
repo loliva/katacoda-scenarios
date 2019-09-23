@@ -38,3 +38,6 @@ Dentro de la estructura del archivo se compone de lo siguiente:
 Services: En este bloque, se definen los servicios que queremos desplegar. Para ello se especifican
 nombres, imagenes asociadas, volumenes, variables de entornos, puertos, redes entre otras opciones.
 Una opcion importante es depends_on: la cual realizara un link al servicio espeficicado en el.
+
+Volumes:
+En el se espefican los volumenes persistentes que se mantendran dentro del stack.
