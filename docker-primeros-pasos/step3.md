@@ -2,10 +2,7 @@ Ya vemos que tenemos la imagen ahí. Ahora como podemos interactuar con esa imag
 
 Vamos a lanzar un contenedor basado en esa imagen e interactuar con la linea de comandos de ese contenedor
 
-`docker run \
-  –it \
-  --name centos7 \
-  centos:latest`{{execute}}
+`docker run -it --name centos centos:latest`{{execute}}
 
 -i : Interactivo
 
@@ -17,4 +14,4 @@ Ahora ejecutamos este comando dentro del contenedores
 
 `cat /etc/redhat-release`{{execute}}
 
-Para salir del contenedor debemos usar CTRL+C
+Para salir del contenedor debemos usar CTRL+D
