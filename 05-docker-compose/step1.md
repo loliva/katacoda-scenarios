@@ -3,7 +3,7 @@ Para eso debemos generar un archivo docker-compose.yml
 
 El archivo docker-compose.yml se conforma de la siguiente conforma
 
-
+```
 version: '3.3'
 services:
    db:
@@ -31,3 +31,6 @@ services:
        WORDPRESS_DB_NAME: wordpress
 volumes:
     db_data: {}
+```
+
+aaa
