@@ -4,7 +4,8 @@ Para eso debemos generar un archivo docker-compose.yml
 El archivo docker-compose.yml se conforma de la siguiente conforma
 
 >version: '3.3'
-services:
+
+>services:
    db:
      image: mysql:5.7
      volumes:
@@ -15,7 +16,8 @@ services:
        MYSQL_DATABASE: wordpress
        MYSQL_USER: wordpress
        MYSQL_PASSWORD: wordpress
-   wordpress:
+
+>   wordpress:
      depends_on:
        - db
      image: wordpress:latest
