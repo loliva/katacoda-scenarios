@@ -7,7 +7,8 @@ Si queremos detener el contenedor
 
 Si corremos docker ps, veremos que ya no hay nada. Lo Bueno del caso es que ese contenedor permanece ahi, con los cambios que nosostros le realizamos.
 
-`docker ps –a`{{execute}}
+`docker ps \
+–a`{{execute}}
 
 Podemos reiniciar nuevamente ese contenedor y conectarnos a el
 
