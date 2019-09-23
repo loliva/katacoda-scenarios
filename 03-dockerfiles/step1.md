@@ -6,5 +6,3 @@ Para ejecutar el contenedor curl debemos ejecutar `docker run --rm curl`{{execut
 
 Por este momento no te preocupes si no funciona como esperabas ahora vamos a modificar y trabajar
 nuestro Dockerfile
-
----
