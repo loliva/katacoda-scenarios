@@ -9,3 +9,7 @@ Vamos a lanzar un contenedor basado en esa imagen e interactuar con la linea de 
 -t: tty
 
 --name: nombre
+
+Ahora ejecutamos este comando dentro del contenedores
+
+`cat /etc/redhat-release`{{execute}}
