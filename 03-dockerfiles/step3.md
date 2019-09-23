@@ -1,3 +1,5 @@
+El administrador de paquetes de Alpine linux es `apk`, equivalente a debian / ubuntu` apt` o redhat / centos `yum`.
+
 <pre class="file" data-filename="Dockerfile" data-target="append">RUN apk add --no-cache curl
 </pre>
 
