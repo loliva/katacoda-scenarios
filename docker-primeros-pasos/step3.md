@@ -20,4 +20,4 @@ Ahora ejecutamos este comando dentro del contenedores
 
 `cat /etc/redhat-release`{{execute}}
 
-Para salir del contenedor debemos usar CTRL+D
+Para salir del contenedor debemos usar CTRL+D o `exit`{{execute}}
