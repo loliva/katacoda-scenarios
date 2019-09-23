@@ -2,7 +2,7 @@ Ya vemos que tenemos la imagen ahí. Ahora como podemos interactuar con esa imag
 
 Vamos a lanzar un contenedor basado en esa imagen e interactuar con la linea de comandos de ese contenedor
 
-`docker run –i –t --name centos7 docker.io/centos:latest /bin/bash`{{execute}}
+`docker run –i –t --name centos7 centos:latest /bin/bash`{{execute}}
 
 -i : Interactivo
 
