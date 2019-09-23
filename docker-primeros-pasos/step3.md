@@ -17,4 +17,4 @@ Ahora ejecutamos este comando dentro del contenedores
 
 `cat /etc/redhat-release`{{execute}}
 
-Para salir del contenedor debemos usar CTRL+C
+Para salir del contenedor debemos usar CTRL+D
