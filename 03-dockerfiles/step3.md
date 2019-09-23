@@ -20,4 +20,4 @@ Recuerda podemos ejecutar un contenedor docker con curl: `docker run --rm curl`{
 
 Usemos nuestro nuevo contenedor curl para recopilar información útil de la web:
 
-`docker run --rm curl -s wttr.in/scl`{{execute}}
+`docker run --rm curl -s "http://api.icndb.com/jokes/random" | jq -r '.value.joke'`{{execute}}
