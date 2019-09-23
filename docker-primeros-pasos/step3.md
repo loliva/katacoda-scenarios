@@ -13,3 +13,5 @@ Vamos a lanzar un contenedor basado en esa imagen e interactuar con la linea de 
 Ahora ejecutamos este comando dentro del contenedores
 
 `cat /etc/redhat-release`{{execute}}
+
+Para salir del contenedor debemos usar CTRL+C
