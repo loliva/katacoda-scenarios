@@ -19,4 +19,4 @@ Ahora debería funcionar. La nueva imagen de curl docker ahora debería ser part
 
 `docker image inspect curl`{{execute}}          
 
-`docker image`{{execute}} 
+`docker images`{{execute}} 
