@@ -4,8 +4,8 @@ Lanzamos el contenedor con la imágen que tenemos de Ubuntu.
 
 Ya dentro del contenedor instalamos node
 
-`apt-get update`{{execute}}
-`curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -`{{execute}}
+`apt-get update && apt-get install curl -y`{{execute}}
+`curl -sL https://deb.nodesource.com/setup_12.x | bash -`{{execute}}
 `apt-get install -y nodejs`{{execute}}
 
 
