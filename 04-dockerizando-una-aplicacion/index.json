@@ -27,7 +27,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal"
+    "uimessage1": "\u001b[32mInteractive Bash\u001b[m\r\n",
+    "showdashboard": true
   },
   "backend": {
     "imageid": "ubuntu"
