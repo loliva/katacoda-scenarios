@@ -7,4 +7,4 @@ Visit https://www.katacoda.com/loliva to view the profile and interactive scenar
 ### Writing Scenarios
 Visit https://www.katacoda.com/docs to learn more about creating Katacoda scenarios
 
-For examples, visit https://github.com/katacoda/scenario-example.
+For examples, visit https://github.com/katacoda/scenario-example
