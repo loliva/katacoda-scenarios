@@ -34,17 +34,17 @@
       "text": "finish.md"
     },
     "assets": {
-      "host01": [
+      "client": [
         {
           "file": "courseBase.sh",
-          "target": ".",
+          "target": "~/",
           "chmod": "+x"
         }
       ],
-      "host02": [
+      "host01": [
         {
           "file": "courseBase.sh",
-          "target": ".",
+          "target": "~/",
           "chmod": "+x"
         }
       ]
