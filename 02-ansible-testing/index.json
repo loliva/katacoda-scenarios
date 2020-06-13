@@ -1,5 +1,5 @@
 {
-  "title": "Ansible 101",
+  "title": "ansible",
   "description": "",
   "difficulty": "Beginner",
   "time": "30 minutes",
@@ -24,30 +24,17 @@
       {
         "title": "Step 5",
         "text": "step5.md"
+      },
+      {
+        "title": "Step 6",
+        "text": "step6.md"
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "background": "courseBase.sh"
+      "text": "intro.md"
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "client": [
-        {
-          "file": "courseBase.sh",
-          "target": "~/",
-          "chmod": "+x"
-        }
-      ],
-      "host01": [
-        {
-          "file": "courseBase.sh",
-          "target": "~/",
-          "chmod": "+x"
-        }
-      ]
     }
   },
   "environment": {
