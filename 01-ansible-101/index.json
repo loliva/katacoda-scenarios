@@ -40,7 +40,7 @@
           "target": ".",
           "chmod": "+x"
         }
-      ]
+      ],
       "host02": [
         {
           "file": "courseBase.sh",
