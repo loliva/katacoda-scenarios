@@ -27,10 +27,27 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "background": "courseBase.sh"
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "courseBase.sh",
+          "target": ".",
+          "chmod": "+x"
+        }
+      ]
+      "host02": [
+        {
+          "file": "courseBase.sh",
+          "target": ".",
+          "chmod": "+x"
+        }
+      ]
     }
   },
   "environment": {
