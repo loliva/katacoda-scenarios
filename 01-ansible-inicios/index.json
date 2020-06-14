@@ -47,7 +47,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "background": "scripts/init.sh"
     },
     "finish": {
       "text": "finish.md"
