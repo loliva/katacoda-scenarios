@@ -63,6 +63,9 @@
     }
   },
   "environment": {
+    "uieditorpath": "/root/ansible",
+    "hideHiddenFiles": true,
+    "exclusionPatterns": ["*test", "./test/*", "./logs"],
     "uilayout": "editor-terminal"
   },
   "backend": {
