@@ -12,7 +12,7 @@ Primeros comandos.
 
 `ansible -i inventories/hosts localhost -m setup`{{execute}}
 
-ansible  -i inventories/hosts localhost -m command -a date
+`ansible  -i inventories/hosts localhost -m command -a date`{{execute}}
 
 `ansible-playbook -i inventories/hosts playbooks/localhost.yml --list-hosts`{{execute}}
 
