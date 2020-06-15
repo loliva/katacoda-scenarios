@@ -2,11 +2,11 @@ Instalación:
 
 Instalación recomendada:
 
-Ejecutamos virtualenv para generar nuestra carpeta con librerias
+Ejecutamos virtualenv para generar nuestra carpeta con librerías
 
 `virtualenv -p python3 venv`{{execute}}
 
-A continuación ejecutamos el comando source para indicar nuestra ruta de librerias python
+A continuación ejecutamos el comando source para indicar nuestra ruta de librerías python
 
 `source venv/bin/activate`{{execute}}
 
