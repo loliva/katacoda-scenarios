@@ -4,7 +4,7 @@ Primeros comandos.
 
 `ansible -i inventories/hosts all -m ping`{{execute}}
 
-`ansible -i inventories/hosts localhost -m ping`{{execute}}
+`ansible -i inventories/hosts local -m ping`{{execute}}
 
 `ansible -i inventories/hosts servers -m ping`{{execute}}
 
@@ -12,10 +12,10 @@ Primeros comandos.
 
 `ansible-playbook -i inventories/hosts site.yml --list-hosts`{{execute}}
 
-modificar all
+modificar servers
 
 `ansible-playbook -i inventories/hosts site.yml --list-hosts`{{execute}}
 
-modificar servers
+modificar grupo
 
 `ansible-playbook -i inventories/hosts site.yml --list-hosts`{{execute}}
