@@ -5,7 +5,7 @@ Comenzaremos accediendo al directorio con nuestro playbook para ejemplos durante
 
 `cd ansible`{{execute}}
 
-Dentro de los comandos base para uso de linea de comandos se encuentra el comando *ansible*. Este contiene la siguiente
+Dentro de los comandos base para uso de linea de comandos se encuentra el comando **ansible**. Este contiene la siguiente
 sintaxis:
 ```
 usage: ansible [-h] [--version] [-v] [-b] [--become-method BECOME_METHOD]
