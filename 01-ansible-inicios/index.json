@@ -66,9 +66,9 @@
     "uieditorpath": "/root/ansible",
     "hideHiddenFiles": true,
     "exclusionPatterns": ["*test", "./test/*", "./logs"],
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal-terminal"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "kubernetes-cluster"
   }
 }
