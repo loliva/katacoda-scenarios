@@ -6,3 +6,7 @@ Generar playbook ansible
 
 
 `ansible-generate -r common -a -p project`{{execute}}
+
+`cd project/`{{execute}}
+
+`tree`{{execute}}
