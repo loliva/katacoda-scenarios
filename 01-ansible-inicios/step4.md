@@ -9,6 +9,6 @@ default => hosts => host_vars => group_vars => playbook
 
 `ansible-playbook -i inventories/hosts playbooks/grupo.yml`{{execute}}
 
-Comentar variables en archivos (host_vars - group_vars)
+Comentar variables en archivos
 
 `ansible-playbook -i inventories/hosts playbooks/grupo.yml`{{execute}}
