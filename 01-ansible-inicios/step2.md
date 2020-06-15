@@ -1,4 +1,6 @@
-cd ansible
+Primeros comandos.
+
+`cd ansible`{{execute}}
 
 `ansible -i inventories/hosts all -m ping`{{execute}}
 
