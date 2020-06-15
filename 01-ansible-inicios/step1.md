@@ -1,4 +1,4 @@
-Instalación:
+# Instalación:
 
 Instalación recomendada:
 

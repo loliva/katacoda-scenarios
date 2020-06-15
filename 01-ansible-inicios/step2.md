@@ -1,5 +1,4 @@
-Primeros comandos.
-
+# Primeros comandos.
 
 Comenzaremos accediendo al directorio con nuestro playbook para ejemplos durante esta clase con el siguiente comando
 
