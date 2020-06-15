@@ -4,7 +4,7 @@ Comenzaremos accediendo al directorio con nuestro playbook para ejemplos durante
 
 `cd ansible`{{execute}}
 
-Dentro de los comandos base para uso de linea de comandos se encuentra el comando **ansible**. Este contiene la siguiente
+Dentro de la linea de comandos, se encuentra **ansible**. Este contiene la siguiente
 sintaxis:
 ```
 usage: ansible [-h] [--version] [-v] [-b] [--become-method BECOME_METHOD]
@@ -43,7 +43,7 @@ Ejecutar un comando remoto en el host especificado
 
 `ansible  -i inventories/hosts localhost -m command -a date`{{execute}}
 
-El siguiente comando es **ansible-playbook**. Este nos permite ejectuar una serie de pasos incluidos dentro de un playbook.
+El siguiente comando es **ansible-playbook**. Este nos permite ejecutar una serie de pasos incluidos dentro de un playbook.
 
 ```
 usage: ansible-playbook [-h] [--version] [-v] [-k]
