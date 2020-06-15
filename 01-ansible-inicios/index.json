@@ -66,7 +66,7 @@
     "uieditorpath": "/root/ansible",
     "hideHiddenFiles": true,
     "exclusionPatterns": ["*test", "./test/*", "./logs"],
-    "uilayout": "terminal-terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "ubuntu"
