@@ -11,7 +11,8 @@ A continuación ejecutamos el comando source para indicar nuestra ruta de librer
 `source venv/bin/activate`{{execute}}
 
 Una vez que realizado el paso anterior nuestro prompt quedara de la siguiente forma:
-  (venv) $
+
+**(venv) $**
 
 Ahora, instalamos ansible mediante la herramienta pip
 
